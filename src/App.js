@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './Chat.css'
-import NewContact from './Contact';
+import './components/Chat.css'
+import NewContact from './components/Contact';
 
 function App() {
   return (
