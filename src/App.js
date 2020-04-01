@@ -1,31 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './components/Chat.css'
-import NewContact from './components/Contact';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "./components/Chat.css";
+import NewContact from "./components/Contact";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React if you want to
-        </a>
-      </header>
-      <div>
-        <NewContact />
-      </div>
-    </div>
-  );
+    return (
+        <div>
+            <NewContact />
+        </div>
+    );
 }
 
 export default App;
