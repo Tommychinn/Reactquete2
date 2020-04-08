@@ -17,7 +17,8 @@ class Contact extends React.Component {
                 <div>
                     <p className="name">{this.props.name}</p>
                     <div onClick={()=>{
-                      this.setState({online: true})
+                      const onlineToggle = !this.state.online;
+                      this.setState({online: onlineToggle});
                     }} className="status">
                         <div
                             className={
